@@ -1,13 +1,12 @@
 import numpy as np
-import pandas as pd
 import matplotlib.pyplot as plt
 
 
-val = np.loadtxt("D:\IISC\heat_conduction_unsteady/input.txt")
-df5 = np.loadtxt("D:\IISC\heat_conduction_unsteady/T5.dat")
-df20 = np.loadtxt("D:\IISC\heat_conduction_unsteady/T20.dat")
-df50 = np.loadtxt("D:\IISC\heat_conduction_unsteady/T50.dat")
-df7200 = np.loadtxt("D:\IISC\heat_conduction_unsteady/T7200.dat")
+val = np.loadtxt("input.txt")
+df5 = np.loadtxt("T5.dat")
+df20 = np.loadtxt("T20.dat")
+df50 = np.loadtxt("T50.dat")
+df7200 = np.loadtxt("T7200.dat")
 m = int (val[0])
 n=0
 T5 = np.zeros((m+1,m+1))
