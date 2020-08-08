@@ -12,4 +12,4 @@ Programming Task
   
    b)T5.png,T20.png,T50.png,T7200.png are the contour plots for time t=5,20,50 and 7200s respectively
 
-3)Heat_Diffusion_Report.pdf is the report
+3) Heat_Diffusion_Report.pdf is the report
